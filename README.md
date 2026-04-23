@@ -2,11 +2,9 @@
 
 ##  Overview
 
-This project presents the end-to-end design and implementation of a mechatronic system where a 3-axis robotic arm is controlled using EEG (brainwave) signals.
+This repository presents my master’s thesis project on the end-to-end design and development of a 3-axis robotic arm controlled through EEG-based command classification.
 
-The objective is to demonstrate the feasibility of Brain-Computer Interface (BCI) applications in industrial systems, beyond medical prosthetics.
-
-The system enables a user to generate movement commands through mental states, which are processed and classified to control a robotic arm in real time.
+The project was developed to explore the feasibility of Brain-Computer Interface (BCI) applications in industrial robotic systems and to build practical experience in full-stack mechatronic system development, including mechanical design, electrical system design, control, signal acquisition, and machine learning.
 
 ---
 
