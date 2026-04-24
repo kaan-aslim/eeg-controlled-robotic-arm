@@ -182,14 +182,31 @@ The project consists of the following main subsystems:
 
 ##  Project Media
 
+###  Robot Arm Overview
 ![Robot Arm Overview](images/robot-arm-overview.jpeg)
+
+###  SolidWorks Assembly
 ![SolidWorks Assembly](images/robot-arm-solidworks-assembly.png)
+
+### CAD Gear Train
 ![CAD Gear Train](images/robot-arm-gear-train.png)
+
+###  ANSYS FEA Analysis
 ![ANSYS FEA Analysis](images/robot-arm-ansys-deformation.png)
+
+###  Electrical Control Panel
 ![Electrical Control Panel](images/robot-arm-electrical-control-panel.png)
+
+###  PLC Ladder Logic Control
 ![PLC Control](images/robot-arm-plc-power-control-ladder.png)
-![EEG Dataset](images/robot-arm-eeg-link-1-up-command-dataset-preview.png)
+
+###  EEG Dataset Preview
+![EEG Dataset Preview](images/robot-arm-eeg-link-1-up-command-dataset-preview.png)
+
+###  ML Classification Accuracy Results
 ![ML Classification Accuracy Results](images/robot-arm-eeg-classification-accuracy-results.png)
+
+###  Robot Arm Control Demo
 ![Robot Arm Control Demo](videos/robot-arm-control-demo.mp4)
 
 ---
