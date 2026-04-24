@@ -195,7 +195,7 @@ The project consists of the following main subsystems:
 ![ANSYS FEA Analysis](images/robot-arm-ansys-deformation.png)
 
 ###  Electrical Control Panel
-![Electrical Control Panel](images/robot-arm-electrical-control-panel.png)
+![Electrical Control Panel](images/robot-arm-electrical-control-panel.jpeg)
 
 ###  PLC Ladder Logic Control
 ![PLC Control](images/robot-arm-plc-power-control-ladder.png)
