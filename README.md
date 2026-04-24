@@ -182,7 +182,7 @@ The project consists of the following main subsystems:
 
 ##  Project Media
 
-![Robot Arm Overview](images/robot-arm-overview.png)
+![Robot Arm Overview](images/robot-arm-overview.jpeg)
 ![SolidWorks Assembly](images/robot-arm-solidworks-assembly.png)
 ![CAD Gear Train](images/robot-arm-gear-train.png)
 ![ANSYS FEA Analysis](images/robot-arm-ansys-deformation.png)
