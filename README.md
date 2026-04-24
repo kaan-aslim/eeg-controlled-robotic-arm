@@ -77,11 +77,11 @@ The project consists of the following main subsystems:
 
 * Full robotic arm designed from scratch in SolidWorks
 * Custom gears designed instead of off-the-shelf reducers
-* Manufacturing methods considered:
+* Manufacturing methods used:
 
   * CNC machining
   * Laser cutting
-  * Bending (Abkant)
+  * Press bending
 * Material selection based on corrosion and mechanical properties
 * Lubrication and coating applied for durability
 
