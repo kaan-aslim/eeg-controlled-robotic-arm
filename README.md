@@ -214,4 +214,5 @@ The project consists of the following main subsystems:
 ##  Master's Thesis
 
 The official master's thesis document, obtained from national thesis database (YÖK), is available below:
+
 [Download Thesis (PDF)](docs/kaan-aslim-eeg-robotic-arm-thesis.pdf)
