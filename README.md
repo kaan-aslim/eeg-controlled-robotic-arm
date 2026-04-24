@@ -11,44 +11,53 @@ The project was developed to explore the feasibility of Brain-Computer Interface
 ##  Objectives
 
 * Design and build a 3-axis robotic arm from scratch
-* Develop a full mechatronic system including mechanical, electrical, and control layers
+* Develop a complete mechatronic system integrating mechanical, electrical, and control layers
 * Acquire and process EEG signals for command generation
-* Classify brain signals into discrete robot control actions
-* Demonstrate BCI-based control for industrial applications
+* Classify EEG-based commands using machine learning
+* Demonstrate the feasibility of BCI-based control for industrial robotic systems
 
 ---
 
 ##  System Architecture
 
-The system consists of four main layers:
+The project consists of the following main subsystems:
 
-1. **Mechanical System**
+### 1. Mechanical Design
 
-   * Custom-designed 3-axis robotic arm
-   * Gear transmission system (custom gear ratios)
-   * Structural validation via FEA
+* Concept design and structural sizing
+* Joint torque estimation and motor selection
+* Custom transmission and gear design
+* CAD modeling and digital assembly in SolidWorks
+* Design validation through motion checks and fit verification
 
-2. **Electrical System**
+### 2. Engineering Analysis
 
-   * Stepper motors and motor drivers
-   * Power supply and protection systems (relay, E-stop)
-   * PLC-based control infrastructure
+* 2D static torque analysis during early design stage
+* Static structural analysis in ANSYS
+* Iterative design improvements based on stress and deformation results
+* Workspace estimation using MATLAB and Monte Carlo analysis
 
-3. **Control System**
+### 3. Electrical & Electronics System
 
-   * PLC (Siemens S7-1200) with TIA Portal
-   * Ladder logic & function block programming
-   * HMI interface via WinCC for manual control
+* Component selection for motors, drivers, relays, power supply, and protection
+* Circuit design based on voltage, current, and load requirements
+* Panel-level assembly and wiring
+* Emergency stop and industrial power considerations
 
-4. **EEG & Machine Learning**
+### 4. Control System
 
-   * EEG data acquisition using NeuroSky MindWave Mobile 1
-   * Dataset creation from mental commands
-   * Signal processing (FFT, Wavelet Transform experiments)
-   * Classification using:
+* PLC-based motion control with Siemens S7-1200
+* Ladder Logic and Function Block programming in TIA Portal
+* Parameterized control for speed, direction, and acceleration
+* Manual real-time control through WinCC-based HMI
 
-     * K-Nearest Neighbors (KNN)
-     * Decision Tree
+### 5. EEG & Machine Learning
+
+* EEG data acquisition using NeuroSky MindWave Mobile 1
+* Dataset generation for multiple robot motion commands
+* Signal processing experiments using FFT and Wavelet Transform
+* Classification using machine learning methods such as KNN and Decision Tree
+* Approximate command classification accuracy of 80%
 
 ---
 
@@ -133,26 +142,28 @@ The system consists of four main layers:
 ##  Results
 
 * Successfully designed and built a functional robotic arm
+* Validated structural feasibility for the target payload through analysis
 * Achieved real-time manual control via PLC and HMI
-* Demonstrated EEG-based command classification
-* Validated feasibility of BCI-based industrial control systems
+* Demonstrated EEG-based command classification with approximately 80% accuracy
+* Showed the feasibility of using BCI-based command interpretation for industrial robotic device control
 
 ---
 
 ##  Limitations
 
-* Real-time EEG-to-robot control integration not completed
-* Limited dataset size
+* Real-time closed-loop EEG-to-robot control was not fully completed within the thesis timeline
+* Dataset size was limited
 * Noise in EEG signals affected classification performance
 
 ---
 
 ##  What I Learned
 
-* End-to-end mechatronic system design
+* End-to-end mechatronic system development
 * Mechanical design and manufacturing processes
-* PLC-based industrial control systems
+* Industrial control logic development with PLC systems
 * Robot kinematics and workspace analysis
+* Practical engineering trade-offs across mechanics, electronics, and control
 * EEG signal acquisition and preprocessing
 * Machine learning basics for classification
 * System-level engineering thinking
@@ -161,10 +172,21 @@ The system consists of four main layers:
 
 ##  Future Work
 
-* Real-time EEG control integration
-* Improved signal processing and filtering
-* Deep learning-based classification
-* ROS2 integration for advanced control
-* Expansion to multi-DOF robotic systems
+* Real-time integration of EEG classification output with robot control system
+* Larger and cleaner EEG datasets
+* Improved signal processing, filtering, and future extraction methods
+* Expansion to higher-DoF robotic systems
+* Integration with modern robotics software frameworks
 
 ---
+
+##  Project Media
+
+* (Robotic arm photos)
+* (SolidWorks CAD screenshots)
+* (ANSYS analysis screenshots)
+* (HMI screenshots)
+* (EEG dataset / MATLAB workflow visuals)
+
+---
+
