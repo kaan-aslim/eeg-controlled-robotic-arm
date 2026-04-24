@@ -191,7 +191,7 @@ The project consists of the following main subsystems:
 ### CAD Gear Train
 ![CAD Gear Train](images/robot-arm-gear-train.png)
 
-###  ANSYS FEA Analysis
+###  ANSYS FEA
 ![ANSYS FEA Analysis](images/robot-arm-ansys-deformation.png)
 
 ###  Electrical Control Panel
